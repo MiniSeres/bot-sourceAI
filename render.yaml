@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: discord-bot-modz
+    runtime: python
+    buildCommand: pip install discord.py
+    startCommand: python main.py
